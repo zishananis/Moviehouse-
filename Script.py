@@ -261,7 +261,7 @@ User - {}"""
 1 Week 29 Rupees 
 1 Month 80 Rupees
 
- <code> paste here your upi id zishananis@fam</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+ <code>  zishananis@fam</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
