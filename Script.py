@@ -113,8 +113,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ https://t.me/filmsexpert_1 
-    Owner ➥  - @zishananis_official </b>"""
+    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ https://t.me/filmsexpert_1 Owner- @zishananis_official </b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
@@ -258,9 +257,10 @@ User - {}"""
     
 <blockquote>🎖️ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ :</blockquote>
 
-! Cut this and Type here Your own plane for exl
+
 1 Week 29 Rupees 
 1 Month 80 Rupees
+3 Months 199 Rupees 
 
  <code>  zishananis@fam</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
