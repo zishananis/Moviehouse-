@@ -1428,16 +1428,16 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         chat_id = message.chat.id
         settings = await get_settings(chat_id , pm_mode=pm_mode)
         searching_msg = await msg.reply_text(f'🔎 sᴇᴀʀᴄʜɪɴɢ {search}')
-	await asyncio.sleep(0.5)
-        await searching_msg.delete()
         files, offset, total_results = await get_search_results(search)
+	await asyncio.sleep(1)
+        await searching_msg.delete()
         if not files:
             if settings["spell_check"]:
                 ai_sts = await msg.reply_text(f'𝑶𝑼𝑹 𝑨𝑰 𝑰𝑺 𝑪𝑯𝑬𝑪𝑲𝑰𝑵𝑮 𝒀𝑶𝑼𝑹 𝑺𝑷𝑬𝑳𝑳𝑰𝑵𝑮...')
                 is_misspelled = await ai_spell_check(search)
                 if is_misspelled:
-              #      await ai_sts.edit(f'<b><i>ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ɪꜱ ᴡʀᴏɴɢ ɴᴏᴡ ᴅᴇᴠɪʟ ꜱᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ꜱᴘᴇʟʟɪɴɢ - <code>{is_misspelled}</code></i></b>')
-                    await asyncio.sleep(2)
+                    await ai_sts.edit(f'<b><i>ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ɪꜱ ᴡʀᴏɴɢ ɴᴏᴡ ᴅᴇᴠɪʟ ꜱᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ꜱᴘᴇʟʟɪɴɢ - <code>{is_misspelled}</code></i></b>')
+                    await asyncio.sleep(1)
                     msg.text = is_misspelled
                     await ai_sts.delete()
                     return await auto_filter(client, msg)
