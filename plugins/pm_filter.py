@@ -1635,7 +1635,9 @@ async def advantage_spell_chok(message):
         google = search.replace(" ", "+")
         button = [[
             InlineKeyboardButton("🔍 ᴄʜᴇᴄᴋ sᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ 🔍", url=f"https://www.google.com/search?q={google}")
-        ]]
+	],[
+		InlineKeyboardButton("⚡Request to Admin 🤝", url=f"https://t.me/zishananis_official")
+	]]
         k = await message.reply_text(text=script.I_CUDNT.format(search), reply_markup=InlineKeyboardMarkup(button))
         await asyncio.sleep(120)
         await k.delete()
