@@ -1429,7 +1429,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         settings = await get_settings(chat_id , pm_mode=pm_mode)
         searching_msg = await msg.reply_text(f'🔎 sᴇᴀʀᴄʜɪɴɢ {search}')
         files, offset, total_results = await get_search_results(search)
-	await asyncio.sleep(1)
+        await asyncio.sleep(1)
         await searching_msg.delete()
         if not files:
             if settings["spell_check"]:
