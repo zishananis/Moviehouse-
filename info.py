@@ -13,9 +13,9 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '22538372'))
+API_HASH = environ.get('API_HASH', '246c14495102de45da8bd2a9a82865a5')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7771635990:AAGSitQvPD7pSqIW6gCuidB63n1KAKnTrFk')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6785102819').split()]
@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/hfdfhhffd')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002133505201').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Zisshan2ndbit:Zisshan2ndbit@cluster073648291937.uqt5ds3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster073648291937")
 DATABASE_NAME = environ.get('DATABASE_NAME', "zishan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
